@@ -1,14 +1,13 @@
 {
-    "name": "Rohit Gaddam",
-    "avatarSrc": "Hero.svg",
-    "bio": "I'm Rohith Undergradute Final Year student at Anurag University. I started my journey as a web developer and slowly expanded my skills to Flutter and Django Full Stack Developement. But My interest grew in Front-end Development and Cloud Computing. I've been Google Developer Student Club Lead for Year 2023-2024, The journey has been amazing throughout the year. I also Founded an Edtech startup 'Newbie Learning', We grew to 5000+ Developer Community within 2 months. We started to take Online Workshops, Webinars, Bootcamps to upskill our community. so now I'm studying in this area to complement my skills with development.",
-    "details": "Get to know me better.",
-    "likes": 0,
-    "hobbies": [
-      "🎨 I love drawing and painting.",
-      "🧬 I’m a very curious person, so I like biology and science.",
-      "🎧 My favorite music genre is R&B, I listen to music a lot.",
-      "🎬 Love to spend time watching movies and TV shows."
-    ]
-  }
-  
+  "name": "Rohit Gaddam",
+  "avatarSrc": "Hero.svg",
+  "bio": "I'm Rohith, an undergraduate final-year student at Anurag University.\n\nI started my journey as a web developer and slowly expanded my skills to Flutter and Django Full Stack Development.\n\nBut my interest grew in Front-end Development and Cloud Computing.\n\nI've been the Google Developer Student Club Lead for the year 2023-2024.\n\nThe journey has been amazing throughout the year.\n\nI also founded an Edtech startup, 'Newbie Learning.'\n\nWe grew to a 5000+ developer community within 2 months.\n\nWe started to take online workshops, webinars, and bootcamps to upskill our community.\n\nNow I'm studying in this area to complement my skills with development.",
+  "details": "Get to know me better.",
+  "likes": 0,
+  "hobbies": [
+    "🎨 I love drawing and painting.",
+    "🖥️ I’m a very curious person, so I like Generative AI and DevOps.",
+    "🎧 My favorite music genre is R&B; I listen to music a lot.",
+    "🎬 I love to spend time watching movies and TV shows."
+  ]
+}
