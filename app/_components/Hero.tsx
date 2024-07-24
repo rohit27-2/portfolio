@@ -35,7 +35,7 @@ function Hero() {
           </div>
           <div className="flex flex-col items-center mt-6 md:mt-0 md:flex-row">
             <Image
-              src="/hero.png"
+              src="Hero.svg"
               alt="hero"
               width={300}
               height={300}

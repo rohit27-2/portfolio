@@ -27,9 +27,11 @@ const ProfileCard: FC<ProfileCardProps> = ({ name, avatarSrc, bio, details, like
         </div>
         <div className="flex items-center">
           <button className="p-2">
-            <PopUpDetails />
+            <span role="img" aria-label="like">
+              ❤️
+            </span>
           </button>
-          <p>Liked by {likes} others</p>
+          <p> by Startups</p>
         </div>
       </div>
       <div className="border border-gray-300 p-4 mt-4 rounded-lg">
