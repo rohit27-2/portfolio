@@ -5,6 +5,8 @@ import About from "./_components/About";
 import ProfileCard from "./_components/ProfileCard";
 import profileData from './_components/content.json';
 import TechProfile from "./_components/Technologies";
+import Projects from "./_components/Projects";
+
 export default function Home() {
   return (
     <div >
@@ -19,6 +21,7 @@ export default function Home() {
         hobbies={profileData.hobbies}
       />
       <TechProfile  />
+      <Projects />
     </div>
   );
 }
