@@ -6,6 +6,7 @@ import ProfileCard from "./_components/ProfileCard";
 import profileData from './_components/content.json';
 import TechProfile from "./_components/Technologies";
 import Projects from "./_components/Projects";
+import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       />
       <TechProfile  />
       <Projects />
+      <Footer />
     </div>
   );
 }
