@@ -27,9 +27,9 @@ function Hero() {
               Enthusiast
             </p>
             <div className="md:flex sm:hidden sm:justify-center my-3 md:justify-start mt-6">
-              <button className="rounded-full border border-black p-2 px-4">
+              <a href="https://drive.google.com/file/d/1hpxJAKruNNOAfLpPiGRTrUclWj1n-EgX/view?usp=drive_link"><button className="rounded-full border border-black p-2 px-4">
                 Resume
-              </button>
+              </button></a>
             </div>
             
           </div>
