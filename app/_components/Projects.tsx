@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 
 function Projects() {
   return (
-    <div className="mt-8 p-8 max-w-2xl mx-auto">
+    <div className="mt-8 p-8 max-w-6xl mx-auto">
       <h1 className="text-4xl font-bold mb-6">
         Check out my Freelance Projects.
       </h1>
-      <div className="flex flex-col gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
           <img
             alt=""
@@ -84,6 +84,67 @@ function Projects() {
             <a href="https://agastya-ect.netlify.app/" target="_blank">
               <Button className="rounded-full mr-5 mt-4">Visit Now!</Button>
             </a>
+          </div>
+        </article>
+
+        
+        <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+          <img
+            alt=""
+            src="femica.jpg"
+            className="h-56 w-full hover:scale-105 object-cover"
+          />
+          <div className="bg-white p-4 sm:p-6">
+            <time dateTime="2024-08-01" className="block text-xs text-gray-500">
+              1st August 2024
+            </time>
+            <h3 className="mt-0.5 text-lg text-gray-900">
+              Famica AI - Women Wellness Platform
+            </h3>
+            <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              A cutting-edge web application for women's wellness, built with React and Firebase, offering personalized health tracking and AI-powered insights.
+            </p>
+            <a href="https://femica-ai.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <Button className="rounded-full mr-5 mt-4">Try Now!</Button>
+            </a>
+          </div>
+        </article>
+        <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+          <img
+            alt=""
+            src="dummy-project-2.jpg"
+            className="h-56 w-full hover:scale-105 object-cover"
+          />
+          <div className="bg-white p-4 sm:p-6">
+            <time dateTime="2024-09-15" className="block text-xs text-gray-500">
+              15th September 2024
+            </time>
+            <h3 className="mt-0.5 text-lg text-gray-900">
+              Project Beta - E-commerce Platform
+            </h3>
+            <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              A robust e-commerce solution using Next.js and Stripe integration.
+            </p>
+            <Button className="rounded-full mr-5 mt-4">Coming Soon</Button>
+          </div>
+        </article>
+        <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+          <img
+            alt=""
+            src="dummy-project-3.jpg"
+            className="h-56 w-full hover:scale-105 object-cover"
+          />
+          <div className="bg-white p-4 sm:p-6">
+            <time dateTime="2024-10-30" className="block text-xs text-gray-500">
+              30th October 2024
+            </time>
+            <h3 className="mt-0.5 text-lg text-gray-900">
+              Project Gamma - AI-powered Analytics
+            </h3>
+            <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              An advanced analytics dashboard using React and TensorFlow.js.
+            </p>
+            <Button className="rounded-full mr-5 mt-4">Coming Soon</Button>
           </div>
         </article>
       </div>

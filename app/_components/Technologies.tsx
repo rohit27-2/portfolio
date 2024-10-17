@@ -7,14 +7,14 @@ function TechProfile() {
   return (
     <div className="p-8 max-w-2xl mx-auto">
       <h1 className="text-4xl font-bold mb-6">
-        Check out What I&apos;`m good at.
+        Check out What I&apos;m good at.
       </h1>
       <div className="flex items-center justify-between border border-gray-300 p-4 rounded-lg ">
         <div>
           <p className="font-semibold text-2xl">Technologies</p>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 lg:grid-cols-3 border border-gray-300 p-4 mt-4 rounded-lg">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3 border border-gray-300 p-4 mt-4 rounded-lg">
         {/* NextJS  */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
