@@ -108,10 +108,10 @@ function Projects() {
               1st August 2024
             </time>
             <h3 className="mt-0.5 text-lg text-gray-900">
-              Famica AI - Women Wellness Platform
+              Famica AI - Women&apos;s Wellness Platform
             </h3>
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-              A cutting-edge web application for women's wellness, built with React and Firebase, offering personalized health tracking and AI-powered insights.
+              A cutting-edge web application for women&apos;s wellness, built with React and Firebase, offering personalized health tracking and AI-powered insights.
             </p>
             <a href="https://femica-ai.vercel.app/" target="_blank" rel="noopener noreferrer">
               <Button className="rounded-full mr-5 mt-4">Try Now!</Button>
