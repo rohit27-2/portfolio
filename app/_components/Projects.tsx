@@ -1,6 +1,7 @@
 import { Avatar, AvatarImage } from "@radix-ui/react-avatar";
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Image from 'next/image';
 
 function Projects() {
   return (
@@ -10,9 +11,11 @@ function Projects() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-          <img
-            alt=""
+          <Image
             src="project-tech.jpg"
+            alt=""
+            width={500}
+            height={300}
             className="h-56 w-full hover:scale-105 object-cover"
           />
 
@@ -36,9 +39,11 @@ function Projects() {
           </div>
         </article>
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-          <img
-            alt=""
+          <Image
             src="project-pix.jpg"
+            alt=""
+            width={500}
+            height={300}
             className="h-56 w-full hover:scale-105  object-cover"
           />
 
@@ -61,9 +66,11 @@ function Projects() {
           </div>
         </article>
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-          <img
-            alt=""
+          <Image
             src="project-aga.jpg"
+            alt=""
+            width={500}
+            height={300}
             className="h-56 w-full object-cover hover:scale-105"
           />
 
@@ -89,9 +96,11 @@ function Projects() {
 
         
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-          <img
-            alt=""
+          <Image
             src="femica.jpg"
+            alt=""
+            width={500}
+            height={300}
             className="h-56 w-full hover:scale-105 object-cover"
           />
           <div className="bg-white p-4 sm:p-6">
@@ -110,9 +119,11 @@ function Projects() {
           </div>
         </article>
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-          <img
-            alt=""
+          <Image
             src="dummy-project-2.jpg"
+            alt=""
+            width={500}
+            height={300}
             className="h-56 w-full hover:scale-105 object-cover"
           />
           <div className="bg-white p-4 sm:p-6">
@@ -129,9 +140,11 @@ function Projects() {
           </div>
         </article>
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-          <img
-            alt=""
+          <Image
             src="dummy-project-3.jpg"
+            alt=""
+            width={500}
+            height={300}
             className="h-56 w-full hover:scale-105 object-cover"
           />
           <div className="bg-white p-4 sm:p-6">
