@@ -39,16 +39,20 @@ function Footer() {
           
 
           <div className="mt-8">
-            
-
             <div className="mt-16 sm:flex sm:items-center sm:justify-between">
               <div className="flex justify-center text-blue-600 sm:justify-start">
-              <p className='text-blue-500 font-bold mt-2  px-20'>&lt; Gaddam Rohith /&gt;</p>
+                <p className='text-blue-500 font-bold mt-2  px-20'>&lt; Gaddam Rohith /&gt;</p>
               </div>
 
               <p className="mt-4 text-center text-sm text-gray-500 sm:mt-0 sm:text-right">
                 Copyright &copy; 2024. All rights reserved.
               </p>
+            </div>
+            
+            {/* New contact information */}
+            <div className="mt-4 text-center text-sm text-gray-400">
+              <p>Phone: 9640877931</p>
+              <p>Email: rohithgaddam.work@gmail.com</p>
             </div>
           </div>
         </div>

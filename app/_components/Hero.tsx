@@ -43,7 +43,7 @@ function Hero() {
             >
               I&apos;m{" "}
               <span className="text-xl font-semibold text-black tracking-tight">
-                frontend developer
+                Frontend developer
               </span>{" "}
               and{" "}
               <span className="text-xl font-semibold text-black tracking-tight">
