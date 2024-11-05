@@ -40,7 +40,7 @@ function Projects() {
         </article>
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
           <Image
-            src="/project-pix.jpg"
+            src="/liv.png"
             alt=""
             width={500}
             height={300}
@@ -54,13 +54,15 @@ function Projects() {
             </time>
 
             <h3 className="mt-0.5 text-lg text-gray-900">
-              Pixieus - Transform your events with pixieus
+              Liv Emergency
             </h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-              A Event Management Website built with Next.js, Tailwind CSS and
+            Trusted Care when
+Every Moment Matters
+Receive immediate, expert medical attention when you need it most. Our advanced technology and dedicated healthcare professionals are here to support you in critical times.
             </p>
-            <a href="https://pix-elit-celer.vercel.app/" target="_blank">
+            <a href="https://liv-taupe.vercel.app/" target="_blank">
               <Button className="rounded-full mr-5 mt-4">Visit Now!</Button>
             </a>
           </div>
